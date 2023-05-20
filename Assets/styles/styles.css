@@ -1,0 +1,219 @@
+*{
+margin: 0;
+padding: 0;
+}
+header{
+height: 25vh;
+background-image: url(../images/imagen1.jpg);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+flex-direction: column;
+display: flex;
+justify-content: space-between;
+}
+header nav{
+padding-left: 0.5rem;
+margin-top: 0.5rem;
+}
+nav a{
+margin-left: 0.5rem;
+font-size: 1rem;
+}
+header h1{
+margin-bottom: 3rem;
+margin-left: 2rem;
+}
+span{
+color: brown;
+}
+.seccion1{
+height: 20vh;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.seccion1 article{
+height: 15vh;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+}
+a:hover{
+box-shadow: rgb(255, 128, 128) 1.95px 1.95px 2.6px;
+cursor: pointer;
+}
+.seccion2{
+weight: 55vh;
+height: 40vh;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.caja-cards{
+width: 15.7%;    
+}
+.seccion2 img{
+width: 15rem;
+height: 15rem;
+border-radius: 10px;
+}
+.caja-precio-cards{
+display: flex;
+justify-content: space-between;
+padding-right: 1rem;
+}
+.seccion2 button{
+border-radius: 5px;
+width: 1.7rem;
+font-size: 0.6rem;
+color: white;
+background-color: salmon;
+border: none;
+}
+footer{
+height: 15vh;
+background-color: rgb(224, 221, 221);
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+footer a{
+text-decoration: none;
+color: brown;
+}
+footer a:hover{
+box-shadow: none;
+cursor: pointer;
+}
+legend{
+margin-left: 0.5rem;
+}
+@media only screen and (min-width:1024px){
+header{
+height: 25vh;
+font-size: 0.8rem;
+}
+.seccion1 article{
+font-size: 0.8rem;
+width: 25rem;
+}
+.seccion2 img{
+height: 11rem;
+}
+footer{
+font-size: 0.6rem;
+}
+}
+@media only screen and (min-width:425px) and (max-width:768px){
+header{
+display: flex;
+flex-direction: column-reverse;
+justify-content: space-evenly;
+margin-bottom: 0rem;
+}
+header a{
+display: flex;
+flex-direction: column;
+font-size: 1rem;
+margin-bottom: 0.2rem;
+transform: translateY(-2.2rem);
+font-family: Arial, Helvetica, sans-serif;
+}
+header h1, span{
+font-size: 1.5rem;
+transform: translateX(-1.5rem);
+}
+.seccion1{
+height: 10vh;
+font-size: 0.8rem;
+}
+.seccion2{
+height: 100vh;
+display: flex;
+flex-direction: column;
+}
+.caja-cards{
+width: 50vw;
+height: 30vh;
+font-size: 0.7rem;
+}
+.caja-cards img{
+width: 50vw;
+height: 20vh;
+}
+footer{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+height: 30vh;
+font-size: 0.6rem;
+}
+input{
+height: 0.6rem;
+width: 7rem;
+}
+button{
+font-size: 0.6rem;
+width: 2rem;
+border-radius: 2px;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+}
+fieldset{
+width: 45vw;
+}
+}
+@media only screen and (min-width:320px) and (max-width:424px){
+header nav a{
+display: flex;
+flex-direction: column;
+margin-top: 0.8rem;
+}
+header h1, span{
+font-size: 1.5rem;
+transform: translatex(-2rem);
+margin-top: 1rem;
+}
+.seccion1 article{
+font-size: 0.6rem;
+}
+.seccion1{
+align-items: center;
+}
+.seccion1 a{
+font-size: 0.8rem;
+}
+.seccion2{
+display: flex;
+flex-direction: column;
+height: 95vh;
+}
+.caja-cards img{
+width: 50vw;
+height: 25vh;
+}
+.caja-cards{
+width: 50vw;
+font-size: 0.7rem;
+}
+footer{
+height: 20vh;
+font-size: 0.6rem;
+display: flex;
+flex-direction: column;
+}
+input{
+height: 0.6rem;
+width: 7rem;
+}
+button{
+font-size: 0.6rem;
+margin-left: 0.5rem;
+margin-bottom: 0.5rem;
+}
+form{
+width: 12rem;
+}
+}
